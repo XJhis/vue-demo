@@ -14,7 +14,7 @@ export default new Router({
     },
     {
       path: '/job/:id',
-      name: '详',
+      name: '详请页面',
       component: Detail
     }
   ]

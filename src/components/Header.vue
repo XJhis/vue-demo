@@ -5,7 +5,7 @@
 			<ul class="header-tab">
 				<li v-for="(value, key) in tabList">
 					<!-- <a href="javascript:void(0)">{{value.name}}</a> -->
-					<router-link :to="value.url+'/:'+value.id" tag="a" append="true" replace="true">{{value.name}}</router-link>
+					<router-link :to="value.url+'/:'+value.id" tag="a" append="true">{{value.name}}</router-link>
 				</li>
 			</ul>
 		</div>
@@ -25,7 +25,6 @@
 				]
 			}
 		},
-
 	}
 </script>
 <style>	
